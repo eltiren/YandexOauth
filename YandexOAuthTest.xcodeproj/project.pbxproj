@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835720C614615CAD0044070C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835720C514615CAD0044070C /* UIKit.framework */; };
+		835720C814615CAD0044070C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835720C714615CAD0044070C /* Foundation.framework */; };
+		835720CA14615CAD0044070C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835720C914615CAD0044070C /* CoreGraphics.framework */; };
+		835720D014615CAD0044070C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 835720CE14615CAD0044070C /* InfoPlist.strings */; };
+		835720D214615CAD0044070C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 835720D114615CAD0044070C /* main.m */; };
+		835720D614615CAD0044070C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 835720D514615CAD0044070C /* AppDelegate.m */; };
+		835720D914615CAD0044070C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835720D814615CAD0044070C /* ViewController.m */; };
+		835720DC14615CAD0044070C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835720DA14615CAD0044070C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		835720C114615CAD0044070C /* YandexOAuthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexOAuthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835720C514615CAD0044070C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		835720C714615CAD0044070C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		835720C914615CAD0044070C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		835720CD14615CAD0044070C /* YandexOAuthTest-Info.plist */ = {isa = PBXFileReference; path = "YandexOAuthTest-Info.plist"; sourceTree = "<group>"; };
+		835720CF14615CAD0044070C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		835720D114615CAD0044070C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		835720D314615CAD0044070C /* YandexOAuthTest-Prefix.pch */ = {isa = PBXFileReference; path = "YandexOAuthTest-Prefix.pch"; sourceTree = "<group>"; };
+		835720D414615CAD0044070C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		835720D514615CAD0044070C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		835720D714615CAD0044070C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		835720D814615CAD0044070C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		835720DB14615CAD0044070C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835720BE14615CAD0044070C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835720C614615CAD0044070C /* UIKit.framework in Frameworks */,
+				835720C814615CAD0044070C /* Foundation.framework in Frameworks */,
+				835720CA14615CAD0044070C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835720B614615CAD0044070C = {
+			isa = PBXGroup;
+			children = (
+				835720CB14615CAD0044070C /* YandexOAuthTest */,
+				835720C414615CAD0044070C /* Frameworks */,
+				835720C214615CAD0044070C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835720C214615CAD0044070C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835720C114615CAD0044070C /* YandexOAuthTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835720C414615CAD0044070C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835720C514615CAD0044070C /* UIKit.framework */,
+				835720C714615CAD0044070C /* Foundation.framework */,
+				835720C914615CAD0044070C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		835720CB14615CAD0044070C /* YandexOAuthTest */ = {
+			isa = PBXGroup;
+			children = (
+				835720D414615CAD0044070C /* AppDelegate.h */,
+				835720D514615CAD0044070C /* AppDelegate.m */,
+				835720D714615CAD0044070C /* ViewController.h */,
+				835720D814615CAD0044070C /* ViewController.m */,
+				835720DA14615CAD0044070C /* ViewController.xib */,
+				835720CC14615CAD0044070C /* Supporting Files */,
+			);
+			path = YandexOAuthTest;
+			sourceTree = "<group>";
+		};
+		835720CC14615CAD0044070C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				835720CD14615CAD0044070C /* YandexOAuthTest-Info.plist */,
+				835720CE14615CAD0044070C /* InfoPlist.strings */,
+				835720D114615CAD0044070C /* main.m */,
+				835720D314615CAD0044070C /* YandexOAuthTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835720C014615CAD0044070C /* YandexOAuthTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835720DF14615CAD0044070C /* Build configuration list for PBXNativeTarget "YandexOAuthTest" */;
+			buildPhases = (
+				835720BD14615CAD0044070C /* Sources */,
+				835720BE14615CAD0044070C /* Frameworks */,
+				835720BF14615CAD0044070C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexOAuthTest;
+			productName = YandexOAuthTest;
+			productReference = 835720C114615CAD0044070C /* YandexOAuthTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835720B814615CAD0044070C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 835720BB14615CAD0044070C /* Build configuration list for PBXProject "YandexOAuthTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 835720B614615CAD0044070C;
+			productRefGroup = 835720C214615CAD0044070C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835720C014615CAD0044070C /* YandexOAuthTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835720BF14615CAD0044070C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835720D014615CAD0044070C /* InfoPlist.strings in Resources */,
+				835720DC14615CAD0044070C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835720BD14615CAD0044070C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835720D214615CAD0044070C /* main.m in Sources */,
+				835720D614615CAD0044070C /* AppDelegate.m in Sources */,
+				835720D914615CAD0044070C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		835720CE14615CAD0044070C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835720CF14615CAD0044070C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		835720DA14615CAD0044070C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835720DB14615CAD0044070C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		835720DD14615CAD0044070C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		835720DE14615CAD0044070C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835720E014615CAD0044070C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YandexOAuthTest/YandexOAuthTest-Prefix.pch";
+				INFOPLIST_FILE = "YandexOAuthTest/YandexOAuthTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		835720E114615CAD0044070C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YandexOAuthTest/YandexOAuthTest-Prefix.pch";
+				INFOPLIST_FILE = "YandexOAuthTest/YandexOAuthTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835720BB14615CAD0044070C /* Build configuration list for PBXProject "YandexOAuthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835720DD14615CAD0044070C /* Debug */,
+				835720DE14615CAD0044070C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835720DF14615CAD0044070C /* Build configuration list for PBXNativeTarget "YandexOAuthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835720E014615CAD0044070C /* Debug */,
+				835720E114615CAD0044070C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 835720B814615CAD0044070C /* Project object */;
+}
