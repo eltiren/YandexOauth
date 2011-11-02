@@ -22,6 +22,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    YandexOauthViewController *cntrl = [[YandexOauthViewController alloc] init];
+    cntrl.delegate = self;
+    [self.navigationController presentModalViewController:cntrl animated:YES];
 }
 
 - (void)viewDidUnload
@@ -55,6 +59,20 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (void)yandexOauthViewController:(YandexOauthViewController *)controller 
+         succesfullLoginWithToken:(NSString *)token
+{
+    [self.navigationController dismissModalViewControllerAnimated:YES];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Авторизация удалась" 
+                                                    message:[NSString stringWithFormat:@"Токен %@",token]                                                    
+                                                   delegate:nil 
+                                          cancelButtonTitle:@"Ok" 
+                                          otherButtonTitles:nil];
+    
+    [alert show];
 }
 
 @end

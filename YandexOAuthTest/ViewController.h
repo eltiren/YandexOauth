@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "YandexOauthViewController.h"
+
+@interface ViewController : UIViewController <YandexOauthViewControllerDelegate>
 
 @end

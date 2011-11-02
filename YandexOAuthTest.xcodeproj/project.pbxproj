@@ -15,6 +15,8 @@
 		835720D614615CAD0044070C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 835720D514615CAD0044070C /* AppDelegate.m */; };
 		835720D914615CAD0044070C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835720D814615CAD0044070C /* ViewController.m */; };
 		835720DC14615CAD0044070C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835720DA14615CAD0044070C /* ViewController.xib */; };
+		835720E514615EDA0044070C /* YandexOauthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835720E314615EDA0044070C /* YandexOauthViewController.m */; };
+		835720E614615EDA0044070C /* YandexOauthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835720E414615EDA0044070C /* YandexOauthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,18 @@
 		835720C514615CAD0044070C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		835720C714615CAD0044070C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		835720C914615CAD0044070C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		835720CD14615CAD0044070C /* YandexOAuthTest-Info.plist */ = {isa = PBXFileReference; path = "YandexOAuthTest-Info.plist"; sourceTree = "<group>"; };
+		835720CD14615CAD0044070C /* YandexOAuthTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YandexOAuthTest-Info.plist"; sourceTree = "<group>"; };
 		835720CF14615CAD0044070C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		835720D114615CAD0044070C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		835720D314615CAD0044070C /* YandexOAuthTest-Prefix.pch */ = {isa = PBXFileReference; path = "YandexOAuthTest-Prefix.pch"; sourceTree = "<group>"; };
-		835720D414615CAD0044070C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		835720D314615CAD0044070C /* YandexOAuthTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YandexOAuthTest-Prefix.pch"; sourceTree = "<group>"; };
+		835720D414615CAD0044070C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		835720D514615CAD0044070C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		835720D714615CAD0044070C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		835720D714615CAD0044070C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		835720D814615CAD0044070C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		835720DB14615CAD0044070C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		835720E214615EDA0044070C /* YandexOauthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YandexOauthViewController.h; sourceTree = "<group>"; };
+		835720E314615EDA0044070C /* YandexOauthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YandexOauthViewController.m; sourceTree = "<group>"; };
+		835720E414615EDA0044070C /* YandexOauthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YandexOauthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		835720CB14615CAD0044070C /* YandexOAuthTest */ = {
 			isa = PBXGroup;
 			children = (
+				835720E214615EDA0044070C /* YandexOauthViewController.h */,
+				835720E314615EDA0044070C /* YandexOauthViewController.m */,
+				835720E414615EDA0044070C /* YandexOauthViewController.xib */,
 				835720D414615CAD0044070C /* AppDelegate.h */,
 				835720D514615CAD0044070C /* AppDelegate.m */,
 				835720D714615CAD0044070C /* ViewController.h */,
@@ -150,6 +158,7 @@
 			files = (
 				835720D014615CAD0044070C /* InfoPlist.strings in Resources */,
 				835720DC14615CAD0044070C /* ViewController.xib in Resources */,
+				835720E614615EDA0044070C /* YandexOauthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				835720D214615CAD0044070C /* main.m in Sources */,
 				835720D614615CAD0044070C /* AppDelegate.m in Sources */,
 				835720D914615CAD0044070C /* ViewController.m in Sources */,
+				835720E514615EDA0044070C /* YandexOauthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
