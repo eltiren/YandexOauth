@@ -75,4 +75,17 @@
     [alert show];
 }
 
+- (void)yandexOauthViewControllerDidCancelled:(YandexOauthViewController *)controller
+{
+    [self.navigationController dismissModalViewControllerAnimated:YES];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Авторизацию отменили" 
+                                                    message:@"Очень жаль"                                                    
+                                                   delegate:nil 
+                                          cancelButtonTitle:@"Ok" 
+                                          otherButtonTitles:nil];
+    
+    [alert show];
+}
+
 @end

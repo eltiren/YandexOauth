@@ -67,7 +67,10 @@
 
 - (IBAction)cancelAction:(id)sender 
 {
-    [self dismissModalViewControllerAnimated:YES];
+    if ([delegate respondsToSelector:@selector(yandexOauthViewControllerDidCancelled:)])
+    {
+        [delegate yandexOauthViewControllerDidCancelled:self];
+    }
 }
 
 #pragma mark - UIWebViewDelegate methods

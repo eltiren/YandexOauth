@@ -16,6 +16,7 @@
 @protocol YandexOauthViewControllerDelegate <NSObject>
 
 - (void)yandexOauthViewController:(YandexOauthViewController*)controller succesfullLoginWithToken:(NSString*)token;
+- (void)yandexOauthViewControllerDidCancelled:(YandexOauthViewController*)controller;
 
 @end
 
